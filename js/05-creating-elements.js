@@ -44,7 +44,7 @@ navLinkEl.textContent = 'Личный кабинет';
 navLinkEl.href = '/profile';
 
 navItemEl.appendChild(navLinkEl);
-// console.log(navItemEl);
+console.log(navItemEl);
 
 const navEl = document.querySelector('.site-nav');
 

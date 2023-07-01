@@ -16,3 +16,9 @@ const linkEl = document.querySelector(
 
 console.log(linkEl);
 linkEl.classList.add('site-nav__link--current');
+
+// const navEl = document.querySelector('.site-nav');
+// console.log(navEl.classList);
+// navEl.classList.add('super-cool');
+// navEl.classList.remove('site-nav');
+// navEl.classList.replace('super-cool', 'djjfj');

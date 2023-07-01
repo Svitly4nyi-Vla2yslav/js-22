@@ -24,6 +24,7 @@ const productsContainerEl = document.querySelector('.js-products');
 const makeProductCard = ({ name, description, price }) => {
   const productEl = document.createElement('article');
   productEl.classList.add('product');
+  // console.log(productEl)
 
   const nameEl = document.createElement('h2');
   nameEl.textContent = name;
@@ -44,5 +45,5 @@ const makeProductCard = ({ name, description, price }) => {
 
 const elements = products.map(makeProductCard);
 
-console.log(elements);
+// console.log(elements);
 productsContainerEl.append(...elements);
